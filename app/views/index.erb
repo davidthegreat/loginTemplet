@@ -1,10 +1,10 @@
-<div class="login">
-  <h1>Welcome to Sinatra!</h1>
-
-<form id="login-form" action="" post="">
-  <input type="text" name="username">
-  <input type="text" name="pasword">
-  <input type="submit" value="Let Me In">
-</form>
-<div class="errors"></div>
+<div class="register">
+  <form action="/login" method="POST">
+    <fieldset>
+        <legend>Login:</legend>
+        username:<input type="text" name="username"><br>
+        password:<input type="text" name="password"><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+  </form>
 </div>

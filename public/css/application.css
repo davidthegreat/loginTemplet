@@ -9,15 +9,24 @@ th {
 }
 
 .login {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -150px 0 0 -150px;
-	width:300px;
-	height:300px;
+
+
 	display: inline-block;
 }
 
 .register {
   text-align: center;
+}
+
+.head {
+  float:right;
+  font-size: 55%;
+}
+
+.navigation {
+  font-weight: bold;
+  font-size: 350%;
+  background-color: yellow;
+
+  padding: 2%;
 }
