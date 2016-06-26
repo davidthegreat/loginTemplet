@@ -30,3 +30,7 @@ th {
 
   padding: 2%;
 }
+
+ul#errors {
+  color: red;
+}
